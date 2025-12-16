@@ -113,14 +113,6 @@ Resultado esperado:
 ✔ Ordem causal sempre respeitada
 ❌ Nenhum reply órfão é exibido
 
-🔍 Comparação entre os Modelos
-Critério	         Consistência Eventual   	  Consistência Causal
-Ordem causal	     ❌ Não garantida	        ✅ Garantida
-Replies órfãos	   ✅ Possíveis	              ❌ Não ocorrem
-Complexidade	     Baixa	                    Maior
-Buffer	           Não	                      Sim
-Relógio lógico	   Lamport	                  Vetorial
-
 📚 Conclusão
 Este projeto evidencia, de forma prática, como a escolha do modelo de consistência impacta diretamente o comportamento de um sistema distribuído.
 Enquanto a consistência eventual prioriza disponibilidade e simplicidade, a consistência causal oferece maior coerência lógica entre eventos relacionados.
